@@ -1,0 +1,30 @@
+{
+    "name": "메뉴얼 최종본 - 복사 - 복사",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "carnival": "github:microsoft/arcade-carnival#v0.0.7",
+        "multiplayer": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.1.27",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
